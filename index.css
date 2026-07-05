@@ -44,7 +44,7 @@ body {
   z-index: 10;
 }
 
-.btn {
+nav .btn {
   position: relative;
   z-index: 10;
 }
@@ -63,4 +63,62 @@ body {
 }
 
 .hero > :nth-child(1) {
+  font-family: "Poppins Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(85, 84, 84);
+  position: relative;
+  z-index: 10;
+}
+.btn {
+  color: white;
+  font-size: large;
+  border: 1px solid rgba(255, 255, 255, 0.718);
+  background-color: rgba(245, 241, 241, 0.044);
+  padding: 3px 8px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.btn-red {
+  background-color: red;
+  padding: 3px 24px;
+  color: white;
+  border-radius: 6px;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.hero-btn input {
+  color: white;
+  padding: 7px 101px 8px 14px;
+  font-size: smaller;
+  background-color: rgba(23, 23, 23, 0.7);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 234, 234, 0.5);
 }
