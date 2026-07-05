@@ -160,3 +160,33 @@ section.first > div :nth-child(2) {
   font-size: 24px;
   text-align: center;
 }
+.faq {
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.faq-box img {
+  filter: invert(1);
+}
+.faq-box {
+  transition: all 1s ease-out;
+  color: white;
+  max-width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  margin: 34px auto;
+  cursor: pointer;
+  padding: 24px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.faq-box:hover {
+  background-color: #414141;
+  color: white;
+}
