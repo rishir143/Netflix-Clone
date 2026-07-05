@@ -61,3 +61,6 @@ body {
   padding: 0 3px;
   gap: 23px;
 }
+
+.hero > :nth-child(1) {
+}
