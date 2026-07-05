@@ -122,3 +122,40 @@ nav .btn {
   border-radius: 4px;
   border: 1px solid rgba(255, 234, 234, 0.5);
 }
+
+.first {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 73vw;
+  margin: auto;
+}
+
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  right: 0;
+  width: 555px;
+  top: 51px;
+}
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0px;
+}
+section.first > div :nth-child(1) {
+  font-weight: bolder;
+  font-size: 48px;
+}
+section.first > div :nth-child(2) {
+  font-size: 24px;
+  text-align: center;
+}
